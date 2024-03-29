@@ -1,0 +1,32 @@
+body{
+
+    background-color: hsla(0, 100%, 70%, 0.3);
+}
+h1{
+    font-family: 'Courier New', monospace;
+}
+p{
+    text-indent: 50px;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Courier New';
+
+}
+.navigation {
+    background-color: rgb(237, 156, 156);
+    list-style-type: none;
+    overflow: hidden;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute items evenly */
+}
+.navigation a {
+    color: bisque;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 0; /* Adjusted padding */
+    flex-grow: 1; /* Distribute available space equally */
+}
+.navigation a:hover {
+    background-color: hsl(0, 80%, 66%);
+}

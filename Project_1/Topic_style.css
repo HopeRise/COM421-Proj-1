@@ -1,0 +1,23 @@
+body{
+
+    background-color: hsla(0, 100%, 70%, 0.3);
+}
+
+.navigation {
+    background-color: rgb(237, 156, 156);
+    list-style-type: none;
+    overflow: hidden;
+    display: flex; 
+    justify-content: space-between; 
+}
+.navigation a {
+    color: bisque;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 0; 
+    flex-grow: 1; 
+}
+.navigation a:hover {
+    background-color: hsl(0, 80%, 66%);
+}
